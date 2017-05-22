@@ -1,7 +1,6 @@
 // Copyright 2015, EMC, Inc.
 
 "use strict";
-
 var _ = require('lodash'),  /* jshint ignore: line */
     _di = require('di'),
     onCore = require('on-core'),
