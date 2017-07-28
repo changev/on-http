@@ -11,6 +11,15 @@ _Copyright 2015-2016, EMC, Inc._
     npm run apidoc
     npm run taskdoc
 
+[WebUi](https://github.com/RackHD/on-web-ui) is the web client of RackHD. Blow steps show how install devel WebUi, it also can be built manually from source code, see more details in  [on-web-ui repo](https://github.com/RackHD/on-web-ui).
+
+    cd ./static
+    rm -rf web-ui
+    curl -L -o on-web-ui-gh-pages.zip https://github.com/RackHD/on-web-ui/archive/gh-pages.zip
+    unzip on-web-ui-gh-pages.zip
+    rm on-web-ui-gh-pages.zip
+    mv on-web-ui-gh-pages web-ui
+
 ## Running
 
 Note: requires MongoDB and RabbitMQ to be running to start correctly.
